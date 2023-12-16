@@ -31,7 +31,7 @@ products = pd.DataFrame({
         'Virtual Network - Tier A',
         'Virtual Network - Tier S'
     ],
-    'Price': [
+    'price_unit': [
         75.00,
         120.00,
         112.00,
@@ -40,7 +40,7 @@ products = pd.DataFrame({
 })
 
 # Tabela de Vendas
-start_date = datetime(2022, 1, 1)
+start_date = datetime(2013, 1, 1)
 end_date = datetime(2023, 1, 1)
 sales = pd.DataFrame({
     'SaleID': range(1, num_sales + 1),
