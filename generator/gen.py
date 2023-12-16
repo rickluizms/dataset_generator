@@ -19,7 +19,7 @@ num_sales = 100000
 employees = pd.DataFrame({
     'EmployeeID': range(1, num_employees + 1),
     'Name': [fake.name() for _ in range(num_employees)],
-    'Group': [random.choice(['Sales Alpha', 'Sales Beta', 'Sales Sigma']) for _ in range(num_employees)],
+    'Group': [random.choice(['New York', 'São Paulo', 'London', 'Shanghai', 'Berlin', 'Toronto', 'Paris', 'Tokyo', 'Seoul']) for _ in range(num_employees)],
 })
 
 # Tabela de Produtos (incluindo apenas os produtos desejados)
