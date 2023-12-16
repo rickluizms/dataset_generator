@@ -19,7 +19,9 @@ num_sales = 100000
 employees = pd.DataFrame({
     'EmployeeID': range(1, num_employees + 1),
     'Name': [fake.name() for _ in range(num_employees)],
-    'Group': [random.choice(['Sales Alpha', 'Sales Beta', 'Sales Sigma']) for _ in range(num_employees)]
+    'Group': [random.choice(['Sales Alpha', 'Sales Beta', 'Sales Sigma']) for _ in range(num_employees)],
+    'Birthdate': [fake.date_of_birth(minimum_age=22, maximum_age=60) for _ in range(num_employees)],
+    'Address': [fake.address() for _ in range(num_employees)]
 })
 
 # Tabela de Produtos (incluindo apenas os produtos desejados)
@@ -39,21 +41,26 @@ products = pd.DataFrame({
     ]
 })
 
-# Tabela de Vendas
 start_date = datetime(2013, 1, 1)
 end_date = datetime(2023, 1, 1)
+
+# Tabela de Vendas
 sales = pd.DataFrame({
     'SaleID': range(1, num_sales + 1),
     'EmployeeID': [random.choice(employees['EmployeeID']) for _ in range(num_sales)],
     'ProductID': [random.choice(products['ProductID']) for _ in range(num_sales)],
     'SaleDate': random_dates(start_date, end_date, num_sales),
-    'Quantity': [random.randint(1, 10) for _ in range(num_sales)]
+    'Quantity': [random.randint(1, 10) for _ in range(num_sales)],
+    'Discount': [random.uniform(0, 0.2) for _ in range(num_sales)],
+    'TotalAmount': [random.uniform(50, 300) for _ in range(num_sales)],
+    'CustomerName': [fake.name() for _ in range(num_sales)],
+    'CustomerEmail': [fake.email() for _ in range(num_sales)]
 })
 
 # Imprimir as tabelas geradas
 print("Funcionários:")
 print(employees)
-employees.to_csv('data/employess.csv', index=False)
+employees.to_csv('data/employees.csv', index=False)
 
 print("\nProdutos:")
 print(products)
@@ -62,4 +69,3 @@ products.to_csv('data/products.csv', index=False)
 print("\nVendas:")
 print(sales)
 sales.to_csv('data/sales.csv', index=False)
-
