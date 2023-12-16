@@ -1,41 +1,21 @@
-EmployeeID,Name,Group,Birthdate,Address
-1,Betty Miller,Sales Beta,1977-01-27,"7003 John Skyway
-Andersonmouth, CT 52521"
-2,Michael Decker,Sales Alpha,1979-01-03,"356 Brooks Lakes
-Elliottmouth, AS 09284"
-3,Ebony Barajas,Sales Sigma,1972-03-07,"71932 Hernandez Radial Apt. 949
-New Mary, MP 03442"
-4,Mr. Sean Coleman PhD,Sales Sigma,1995-12-10,"264 Alison Freeway Suite 309
-West Melissa, NC 52999"
-5,Rachel Marshall,Sales Beta,1986-05-31,"080 Lori Ridges Suite 026
-East Anthonyview, MS 12723"
-6,Patrick Garza,Sales Sigma,1998-10-04,"53479 Andrews River Apt. 840
-Port Charlesstad, MN 07558"
-7,James Rodriguez,Sales Beta,1966-09-10,"4648 Caleb Manor Suite 555
-Jamesville, FM 93922"
-8,Alexander Zuniga,Sales Sigma,1968-06-26,"7404 Julie Highway Apt. 345
-New Susanport, SC 15602"
-9,John Villarreal,Sales Alpha,1981-10-04,"3333 William Plaza
-Jessicaview, LA 43626"
-10,Audrey Russell,Sales Alpha,1970-01-07,"72068 Roberson Courts Suite 560
-Lake Michael, KS 43987"
-11,Lonnie Berry,Sales Beta,1986-06-23,"6541 Paige Wall
-Kennethberg, PR 59332"
-12,Shawn Allen,Sales Sigma,1999-01-27,"3147 Laura Square
-East Kristina, AZ 70463"
-13,Ryan Franklin,Sales Sigma,1964-11-04,"USCGC White
-FPO AA 44228"
-14,Derrick Rodriguez,Sales Sigma,1984-04-21,"900 Faith Lake Apt. 225
-Harrismouth, TN 12960"
-15,Bailey Dominguez,Sales Sigma,1973-04-06,"469 Troy Walk
-Reneeshire, WI 44050"
-16,Stephanie Short,Sales Sigma,1993-10-06,"139 Ruiz Via
-Ronaldstad, FM 98527"
-17,Lisa Wilson,Sales Sigma,1963-08-11,"Unit 7770 Box 9584
-DPO AE 04307"
-18,Kyle Murray,Sales Alpha,1967-09-29,"6468 Thomas Glens Apt. 763
-North Walter, PW 84605"
-19,Tony Kelley,Sales Beta,2001-04-09,"65821 Michael Street Suite 311
-Tammytown, MN 38034"
-20,Tina Smith,Sales Alpha,1972-04-12,"4685 Brett Trail
-New Melissa, MD 74887"
+EmployeeID,Name,Group
+1,Robert Foster,Berlin
+2,Michael Moore,São Paulo
+3,Bethany Meyers,New York
+4,Kayla Smith,São Paulo
+5,Michael Murphy,São Paulo
+6,Susan Boyd,Tokyo
+7,Brenda Schneider,Paris
+8,Ronald Porter,New York
+9,Annette Turner,São Paulo
+10,Cynthia Calderon,Shanghai
+11,Stephen Brown,Shanghai
+12,Joel Brady,Berlin
+13,Colleen Moon,Toronto
+14,Steven Montoya,New York
+15,Mr. James Young,New York
+16,Anthony Roman,Paris
+17,Ronald Clark,Paris
+18,Jennifer Campbell,Toronto
+19,Joseph Jones,São Paulo
+20,Carrie Harris DDS,London
